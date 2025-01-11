@@ -1,7 +1,11 @@
-// filepath: /c:/Users/user/OneDrive/Desktop/Bank-Token-Project/postcss.config.js
+// filepath: /c:/Users/user/OneDrive/Desktop/Bank-Token-Project/tailwind.config.js
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+  content: [
+    './index.html',
+    './*.{js,jsx,ts,tsx,vue}',
+  ],
+  theme: {
+    extend: {},
   },
+  plugins: [],
 }
